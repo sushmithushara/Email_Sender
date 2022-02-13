@@ -14,6 +14,6 @@ email.set_content(html.substitute({'name' : 'Sushmi Thushara'}),'html')
 with smtplib.SMTP(host = 'smtp.yahoo.com', port = 587) as smtp:
 	smtp.ehlo()
 	smtp.starttls()
-	smtp.login('sushmithushara@yahoo.com','sushsuman@93')
+	smtp.login('sushmithushara@yahoo.com','**********')
 	smtp.send_message(email)
 	print("All good now")
